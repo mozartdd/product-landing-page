@@ -4,6 +4,8 @@ html {
 
 body {
     margin: 0;
+    height: 10000px;
+    box-sizing: border-box;
 }
 
 #header {
@@ -48,10 +50,13 @@ figcaption a {
 #register {
     max-width: 500px;
     margin: auto;
+    padding: 4rem;
+    scroll-margin-top: 144px;
+
 }
 
 #register h1 {
-    font-size: 3.4rem;
+    font-size: 4.4rem;
     font-family: "Pirata One",  Creepster, sans-serif;
     text-align: center;
     margin: auto;
@@ -68,4 +73,96 @@ input {
     border-radius: 20px;
     text-align: center;
     font-size: large;
+}
+
+#submit{
+    width: 50%;
+    margin: 2rem auto 0 auto;
+    display: block;
+}
+
+#about {
+    background: black;
+    scroll-margin-top: 144px;
+}
+
+#about h2 {
+    font-size: 4rem;
+    font-family: "Pirata One",  Creepster, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+section form hr:last-of-type {
+    margin-top: 2rem;
+}
+
+video {
+    display: block;
+    margin: auto;
+    padding-bottom:2rem;
+    border-radius: 10%;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#p {
+    margin-left: 260px;
+}
+#f {
+    margin-left: 250px;
+}
+
+#p, #f {
+    font-size: 3rem;
+}
+
+
+article {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+article ul {
+    font-size: 2.2rem;
+    margin: auto;
+    font-family: Georgia;
+    background-color: gray;
+    border-radius: 10px;
+    max-width: 200px;
+    text-align: start;
+}
+
+article ul li {
+    list-style: none;
+    margin-bottom: 2rem;
+    color: #000000;
+}
+
+h3 {
+    color: aliceblue;
+    display: inline;
+}
+
+#shop {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.product {
+    flex: 1;
+    /* border: 1px solid red; */
+    min-height: 500px;
 }
