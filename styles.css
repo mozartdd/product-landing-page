@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    min-height: 100px;
+    max-height: 200px; 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img {
+    width: 220px;
+    height: 100px;
+    object-fit: cover;
+}
+
+figcaption a {
+    color: aliceblue;
+    display: block;
+    font-size: 1.9rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    padding-top: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 6rem;
+    font-size: 2.7rem;
+    font-family: "Pirata One",  Creepster, sans-serif;
+}
+
+#register {
+    max-width: 500px;
+    margin: auto;
+}
+
+#register h1 {
+    font-size: 3.4rem;
+    font-family: "Pirata One",  Creepster, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+label, label p {
+    font-size: 2.6rem;
+    margin: 0;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
